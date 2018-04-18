@@ -1,0 +1,92 @@
+/*
+$color1: rgba(234, 172, 65, 1);
+$color2: rgba(204, 32, 81, 1);
+$color3: rgba(252, 181, 181, 1);
+$color4: rgba(88, 93, 109, 1);
+$color5: rgba(250, 246, 246, 1);
+*/
+
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color:lightblue;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  padding: 25px;
+  border-bottom : 10px gray double;
+  background-color: #bfa7d4;
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.nav{
+  display:flex;
+  justify-content:space-around;
+  width:50%;
+  margin: auto;
+}
+
+.card{
+  /*border:solid black 5px;*/
+  /*padding:10px;*/
+  /*width:250px;*/
+  
+}
+
+.card-text{
+  background-color: rgba(255,255,255,.7);
+padding:10px;
+}
+
+.card-text a{
+  color:black;
+  text-decoration: none;
+}
+
+.card h2{
+  text-align: center;
+}
+
+.card h3{
+  text-align: center;
+}
+.card1{
+  background-image: url(../images/brooklyn.jpg);
+    background-size: cover;
+  border:solid black 5px;
+  padding:10px;
+  width:200px;
+}
+
+.card2{
+  background-image: url(../images/map.jpg);
+    background-size: cover;
+  border:solid black 5px;
+  padding:10px;
+  width:200px;
+}
+
+.card3{
+  background-image: url(../images/application.jpg);
+  background-size: cover;
+  border:solid black 5px;
+  padding:10px;
+  width:200px;
+}
+
+
+.main h2{
+  text-align: center;
+}
+.main li{
+  font-size: 25px;
+}
